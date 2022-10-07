@@ -38,16 +38,19 @@ function chooseColor(mag) {
     position: "bottomright"
 });
   
-legend.onAdd = function() {
+legend.onAdd = function(){
     var div = L.DomUtil.create("div", "legend");
+    this.update()
+    return div;
+};
+
+legend.update = function (){
     labels = chooseColor(mag)
     categories = ['0-1','1-3','3-5','5-7','7-9','9+']
-    return div;
 };
 
   // Add the info legend to the map.
 legend.addTo(myMap);
-
 
 
 
