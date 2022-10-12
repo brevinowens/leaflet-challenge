@@ -10,11 +10,54 @@ html {
 }
 
 .legend {
-  padding: 10px;
+  padding: 2px;
   font-size: 16px;
-  font-weight: bold;
   line-height: 18px;
   color: #555;
   background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
 }
+
+i{
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.lightgreen{
+  background-color: lightgreen;
+}
+
+.green{
+  background-color: green;
+  color: white;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.orange{
+  background-color: orange;
+}
+
+.darkorange{
+  background: darkorange;
+}
+
+.red{
+  background-color: red;
+  color: white;
+}
+
+.legend h4{
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 2px auto;
+}
+
+
 
